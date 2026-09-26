@@ -1,0 +1,7 @@
+{
+  "id": "mcxboxbroadcastautoupdate",
+  "name": "MCXboxBroadcastAutoUpdate",
+  "version": "2.0.1",
+  "main": "com.example.autoupdate.velocity.VelocityPlugin",
+  "authors": ["RedCatKnights"]
+}
