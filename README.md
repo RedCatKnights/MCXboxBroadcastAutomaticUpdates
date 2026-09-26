@@ -74,4 +74,21 @@ messages:
   lang-load-failed: "%prefix%§cFailed to load language.yml: %error%"
   default-copy-failed: "%prefix%§cFailed to copy default file: %resource%"
 ```
+---
+
+## ! ! Important Notes ! !
+- Please note that this code was created and modified with the assistance of the AI, Gemini.
+- I have basic programming knowledge, but I am unable to develop code entirely from scratch, so I am very grateful for Gemini's help.
+- Please be aware that this code has not been tested in any environment other than my own.
+
+---
+
+## Future Updates & Maintenance
+- Future updates and maintenance for this code are not guaranteed.
+- If the plugin stops working due to future updates, it may not be fixed.
+- Bug reports are not actively supported, but I might look into them if time permits or if I feel like it.
+- This code is published primarily as a personal note/backup, and for anyone who might be looking for something similar.
+
+---
+
   
