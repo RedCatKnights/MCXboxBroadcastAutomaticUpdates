@@ -7,7 +7,7 @@ Supported Servers and Proxies are those that I have confirmed to be working.
 
 ---
 ## Configuration (en_us)
-The language file is located in the `.Latest build/language` directory within the project; the `en_us` language file is there.  
+The language file is located in the `_Latest build_/language` directory within the project; the `en_us` language file is there.  
 The default build language is Japanese, so please replace it manually.
 ```yaml
 # ==============================================================================
