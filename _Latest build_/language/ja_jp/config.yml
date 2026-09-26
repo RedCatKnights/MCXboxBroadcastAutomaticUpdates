@@ -1,0 +1,40 @@
+# ==============================================================================
+# MCXboxBroadcastAutoUpdate 設定ファイル
+# 開発者: RedCatKnights
+# ==============================================================================
+
+auto-update:
+  # サーバー起動時に自動でアップデートチェックを行うか (true: 有効 / false: 無効)
+  check-on-startup: true
+
+  # 定期アップデートチェックの間隔（時間単位）
+  # デフォルト 5時間に1回チェック
+  check-interval-hours: 5
+
+  # Modrinth のプロジェクト API URL
+  # 対象プラグイン/拡張機能のバージョン一覧情報を取得するエンドポイントです。
+  modrinth-api-url: "https://api.modrinth.com/v2/project/mcxboxbroadcast/version"
+
+  # 動作プラットフォームの指定 ("Automatic", "Geyser-Spigot", "Geyser-Velocity", "Geyser-Bungeecord")
+  # "Automatic" の場合、実行中のサーバープラットフォームに応じて自動判別されます。
+  platform: "Automatic"
+
+  # アップデート対象となる JAR ファイルのパス
+  # %automatic% は上記 platform 設定（または自動判別結果）のフォルダー名に置換されます。
+  target-jar-path: "plugins/%automatic%/extensions/MCXboxBroadcastExtension.jar"
+
+restart-settings:
+  # アップデートダウンロード完了後に自動でサーバーの再起動/停止処理を行うか (true: 有効 / false: 無効)
+  auto-restart: true
+
+  # サーバー停止カウントダウン時のアナウンス通知タイミング（秒単位のリスト）
+  # 設定された秒数になるとゲーム内・コンソールに警告メッセージが配信されます。
+  # 0 を含めるか空のリスト [] にするとカウントダウンなしで即時停止します。
+  announcements: [120, 60, 30, 10, 5, 4, 3, 2, 1]
+
+  # カスタム停止コマンドを使用するか (true: カスタムコマンドを使用 / false: 標準停止処理を実行)
+  use-custom-shutdown-command: false
+
+  # use-custom-shutdown-command が true の場合に実行されるコンソールコマンド
+  # 例: 外部再起動スクリプト連携用のコマンドなどを設定可能です
+  custom-shutdown-command: "stop"
